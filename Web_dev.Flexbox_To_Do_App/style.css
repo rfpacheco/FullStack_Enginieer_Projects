@@ -41,15 +41,21 @@ body {
     /* border: 1px solid red; */
     display: inline-flex;
     flex-grow: 3;
+    flex-direction: column;
   }
   
   .row {
     min-height: 200px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
   }
   
   .square {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 125px;
     height: 125px;
     padding: 10px;
