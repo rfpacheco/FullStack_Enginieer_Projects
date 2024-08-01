@@ -13,6 +13,8 @@ header {
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  z-index: 1;
+  background-color: black;
   height: 69px;
   width: 100%;
   margin-left: 10px;
@@ -30,6 +32,7 @@ header {
 
 header nav {
   display: flex;
+  margin-right: 20px;
 }
 
 header nav ul {
@@ -41,4 +44,103 @@ header nav ul {
 header nav ul li a {
   text-transform: underline;
   color: seashell;
+}
+
+/* Main */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  gap: 60px;
+  position: absolute;
+  top: 69px;
+  width: 100%;
+}
+
+/* Our Mission */
+#our-mission {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../img/img-mission-background.webp");
+  height: 700px;
+  width: 1200px;
+}
+
+#our-mission > div {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: black;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Tea of the Month */
+#tea-month {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+  gap: 20px;
+}
+
+#tea-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+#tea-img {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.tea-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.tea-card > img {
+  height: 200px;
+  width: 300px;
+}
+
+/* Locations */
+#locations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../img/img-locations-background.webp");
+  height: 500px;
+  width: 1200px;
+}
+
+#locations-img {
+  display: flex;
+  justify-content:space-between;
+  gap: 40px;
+}
+
+.location-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 15px;
 }
