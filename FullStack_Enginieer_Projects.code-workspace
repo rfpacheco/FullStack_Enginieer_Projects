@@ -7,5 +7,7 @@
 			"path": "Off-Platform_Project:_Tea_Cozy"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "FullStack_Enginieer_Projects"
+	}
 }
