@@ -40,6 +40,7 @@ body {
   .week {
     /* border: 1px solid red; */
     display: inline-flex;
+    flex-grow: 3;
   }
   
   .row {
@@ -79,6 +80,7 @@ body {
   
   .reminders h3 {
     display: inline-flex;
+    flex-grow: 2;
     width: 100%;
     margin: 10px;
     color: black;
