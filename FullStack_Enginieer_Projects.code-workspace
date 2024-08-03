@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "CSS_Grid_Task_Board"
 		}
 	],
 	"settings": {
