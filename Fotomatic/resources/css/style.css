@@ -324,22 +324,6 @@ header .mobile {
   height: 1.875rem;
 }
 
-@media only screen and (max-width: 760px) {
-  #quotes-section content {
-    padding: 1.875rem .625rem;
-  }
-
-  #quotes-section quote {
-    font-size: 1.5rem;
-    line-height: 1.4;
-  }
-
-  #quotes-section quote-citation {
-    display: block;
-    padding-top: 1rem;
-    margin: auto;
-  }
-}
 
 /* Footer */
 
@@ -365,6 +349,22 @@ footer .copyright {
 @media only screen and (min-width: 761px) {
   footer .content {
     font-size: .625rem;
+  }
+}
+@media only screen and (max-width: 760px) {
+  #quotes-section content {
+    padding: 1.875rem .625rem;
+  }
+
+  #quotes-section quote {
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
+
+  #quotes-section quote-citation {
+    display: block;
+    padding-top: 1rem;
+    margin: auto;
   }
 }
 
