@@ -4,33 +4,14 @@ html {
   font-size: 16px;
 }
 
-.main-content {
-  position: relative;
-  top: 5.3125rem; /* To offset for fixed header. */
-}
-
-.center {
-  text-align: center;
-}
+/* ========================================================================== */
+/* General styles */
+/* ========================================================================== */
 
 .button {
   border-radius: 4px;
   background-color: #4a4a4a;
   color: white;
-}
-
-.image-container {
-  overflow: hidden;
-}
-
-.image-container img {
-  display: block;
-}
-
-@media only screen and (max-width: 760px) {
-  .main-content {
-    top: 2.5625rem;
-  }
 }
 
 /* ========================================================================== */
@@ -82,8 +63,25 @@ header .mobile {
   display: none;
 }
 
+/* ========================================================================== */
+/* Main content */
+/* ========================================================================== */
+.main-content {
+  position: relative;
+  top: 5.3125rem; /* To offset for fixed header. */
+}
 
-/* Sign Up Section */
+.center {
+  text-align: center;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+}
 
 #sign-up-section {
   display: flex;
@@ -345,6 +343,11 @@ footer .copyright {
 /* ========================================================================== */
 /* Media Queries */
 /* ========================================================================== */
+@media only screen and (max-width: 760px) {
+  .main-content {
+    top: 2.5625rem;
+  }
+}
 
 @media only screen and (min-width: 761px) {
   footer .content {
